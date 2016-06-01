@@ -1,0 +1,6 @@
+<h1>Orders</h1>
+<ul>
+  {{#each model as |order|}}
+  <li>${{order.unitPrice}} X {{order.quantity}}</li>
+  {{/each}}
+</ul>
